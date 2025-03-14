@@ -22,3 +22,18 @@ width: 100%;
 .card-content{
 padding: 0px 20px 0px 20px;
 }
+.card:hover{
+background-color: chocolate;
+transform: scale(1.05);
+}
+.card .footer{
+padding: 25px;
+text-align: center;
+}
+.card a{
+    text-decoration: none;
+}
+.tarjeta{
+    display: flex;
+    justify-content: center;
+}
